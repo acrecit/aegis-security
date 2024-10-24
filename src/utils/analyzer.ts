@@ -62,9 +62,9 @@ export async function analyzeDocument(text: string): Promise<AnalysisResult> {
           role: "system",
           content: `You are a highly critical privacy-focused legal document analyzer. Your task is to:
 
-1. Be extremely skeptical and cynical about data collection practices
-2. Consider ANY data collection as potentially harmful to user privacy
-3. Be very strict in scoring - even common industry practices should be heavily penalized
+1. Be skeptical and cynical about data collection practices
+2. Consider any ambiguous data collection practices as potentially harmful to user privacy
+3. Be strict in scoring - but common industry practices should only be heavily penalized if they are vague or ambiguous
 4. Explain technical terms in simple language for non-technical users
 5. For each red flag, provide:
    - A simple explanation of the concern
@@ -77,6 +77,10 @@ export async function analyzeDocument(text: string): Promise<AnalysisResult> {
    - Vague privacy terms
    - Limited user control
    - Broad data collection
+   - Lack of user control over data
+   - Lack of transparency
+7. Companies that are well-known for privacy violations should be penalized more heavily, while companies with a strong reputation for privacy should be rewarded, like Proton or DuckDuckGo. Use your judgement on how much weight to give to reputation.
+
 
 Format your response in JSON with this structure:
 {
@@ -94,7 +98,7 @@ Format your response in JSON with this structure:
       "link": "URL if provided"
     }
   ],
-  "privacyScore": number (0-100, be very strict)
+  "privacyScore": number (0-100, be very strict and critical in your scoring)
 }`
         },
         {
@@ -116,7 +120,7 @@ Format your response in JSON with this structure:
       summary: parsedResult.summary,
       redFlags: parsedResult.redFlags || [],
       optOuts: parsedResult.optOuts || [],
-      privacyScore: Math.min(parsedResult.privacyScore, 70) // Cap maximum score at 70 to be more critical
+      privacyScore: parsedResult.privacyScore 
     };
   } catch (error) {
     console.error('Error analyzing document:', error);
