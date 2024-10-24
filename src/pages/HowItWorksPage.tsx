@@ -4,7 +4,7 @@ import { Upload, Search, AlertTriangle, CheckCircle } from 'lucide-react';
 export function HowItWorksPage() {
   return (
     <main className="container mx-auto px-4 py-12 max-w-4xl">
-      <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">How LegalLens Works</h1>
+      <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">How Aegis Works</h1>
 
       <div className="space-y-12">
         <section>

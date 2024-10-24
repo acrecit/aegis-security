@@ -4,11 +4,11 @@ import { Shield, Lock, UserCheck } from 'lucide-react';
 export function AboutPage() {
   return (
     <main className="container mx-auto px-4 py-12 max-w-4xl">
-      <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">About LegalLens</h1>
+      <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">About Aegis Security</h1>
       
       <div className="prose dark:prose-invert max-w-none">
         <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-          LegalLens is your AI-powered assistant for understanding complex legal documents. 
+          Aegis is your AI-powered assistant for understanding complex legal documents. 
           We believe that everyone deserves to understand the terms they're agreeing to, 
           without needing a law degree. Our tool analyzes privacy policies, terms of service, 
           and other legal documents to provide clear, actionable insights about your privacy and rights.
@@ -40,10 +40,10 @@ export function AboutPage() {
           </div>
         </div>
 
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Why LegalLens?</h2>
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Why Aegis?</h2>
         <p className="text-gray-600 dark:text-gray-300 mb-4">
           In today's digital age, we're constantly agreeing to terms and conditions without fully 
-          understanding their implications. LegalLens uses advanced AI to break down complex legal 
+          understanding their implications. Aegis uses advanced AI to break down complex legal 
           jargon into clear, actionable insights, helping you understand exactly what you're agreeing to.
         </p>
 
