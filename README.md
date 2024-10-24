@@ -29,4 +29,4 @@ Aegis Security aims to change this. By providing clear, actionable insights abou
 4. Edit `.env` and add your OpenAI API key
 5. Run the development server: `npm run dev`
 
-We welcome contributions from the community as we continue building Aegis Security into a powerful tool for privacy-conscious users.
+Contributions from the community are welcomed as we continue building Aegis Security into a powerful tool for privacy-conscious users.
