@@ -41,7 +41,7 @@ export function Header() {
               </li>
               <li>
                 <a
-                  href="https://github.com/Joshvvin/legal-lens"
+                  href="https://github.com/acrecit/aegis-security"
                   className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors flex items-center gap-1"
                   target="_blank"
                   rel="noopener noreferrer"

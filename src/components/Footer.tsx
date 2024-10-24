@@ -8,10 +8,10 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-gray-600 dark:text-gray-300">
-              LegalLens - Making legal documents transparent and accessible
+              Aegis Security - Making legal documents transparent and accessible
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-              © {new Date().getFullYear()} LegalLens. All rights reserved.
+              © {new Date().getFullYear()} Aegis Security. All rights reserved.
             </p>
           </div>
           <div className="flex items-center space-x-6">
