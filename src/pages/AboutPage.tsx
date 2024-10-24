@@ -8,10 +8,22 @@ export function AboutPage() {
       
       <div className="prose dark:prose-invert max-w-none">
         <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-          Aegis is your AI-powered assistant for understanding complex legal documents. 
-          We believe that everyone deserves to understand the terms they're agreeing to, 
-          without needing a law degree. Our tool analyzes privacy policies, terms of service, 
-          and other legal documents to provide clear, actionable insights about your privacy and rights.
+          
+        Aegis Security is an AI-powered assistant designed to help users,
+        regardless of their technical or legal expertise, understand complex
+        legal documents and how their sensitive information is being collected
+        and utilized. Every year, we agree to dozens of Privacy Policies, Terms
+        of Service, and EULAs—most of which we never read. This gives companies
+        the opportunity to obscure data collection practices within lengthy
+        documents filled with legal jargon.
+
+        Aegis Security aims to change this by analyzing these documents and
+        providing clear, actionable insights about privacy implications and user
+        rights. We believe that everyone deserves to understand the terms
+        they're agreeing to, without needing a law degree. By making these
+        documents more accessible, we hope to push companies toward more
+        transparent and ethical data collection practices, ultimately empowering
+        users to make informed decisions about their digital privacy.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-12">
