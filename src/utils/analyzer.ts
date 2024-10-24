@@ -80,7 +80,7 @@ export async function analyzeDocument(text: string): Promise<AnalysisResult> {
    - Lack of user control over data
    - Lack of transparency
 7. Companies that are well-known for privacy violations should be penalized more heavily, while companies with a strong reputation for privacy should be rewarded, like Proton or DuckDuckGo. Use your judgement on how much weight to give to reputation.
-8. 
+8. If input is in a language other than English, provide a translation of the input in English as well as an indication of the language and a translation of the red flags and opt-outs into the same language as the input.
 
 Format your response in JSON with this structure:
 {
