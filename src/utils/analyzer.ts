@@ -80,11 +80,11 @@ export async function analyzeDocument(text: string): Promise<AnalysisResult> {
    - Lack of user control over data
    - Lack of transparency
 7. Companies that are well-known for privacy violations should be penalized more heavily, while companies with a strong reputation for privacy should be rewarded, like Proton or DuckDuckGo. Use your judgement on how much weight to give to reputation.
-
+8. 
 
 Format your response in JSON with this structure:
 {
-  "summary": "Brief overview of privacy implications",
+  "summary": "brief explanation of what the document appears to be, and a brief overview of privacy implications",
   "redFlags": [
     {
       "explanation": "Simple explanation of the concern",
@@ -98,7 +98,7 @@ Format your response in JSON with this structure:
       "link": "URL if provided"
     }
   ],
-  "privacyScore": number (0-100, be very strict and critical in your scoring)
+  "privacyScore": number (0-100, be very strict in your scoring, but recognize good practices)
 }`
         },
         {

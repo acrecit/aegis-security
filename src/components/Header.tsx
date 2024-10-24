@@ -11,7 +11,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <Shield className="w-8 h-8 text-blue-500" />
-            <span className="text-xl font-bold text-gray-900 dark:text-white">LegalLens</span>
+            <span className="text-xl font-bold text-gray-900 dark:text-white">Aegis Security</span>
           </Link>
           <nav>
             <ul className="flex space-x-6">
